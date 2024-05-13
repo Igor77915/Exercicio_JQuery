@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(182, 178, 178);
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+h1{text-align: center;}
+
+button{
+    background-color: rgb(165, 212, 93);
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#input {
+    width: 70%;
+    padding: 8px;
+}
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}
